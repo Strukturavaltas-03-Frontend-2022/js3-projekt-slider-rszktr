@@ -38,7 +38,6 @@ firstPhoto.classList.add('active');
 const firstDot = document.querySelector('.dot__index');
 firstDot.classList.add('active');
 
-
 const sliderContainer = document.querySelector(".slider__container");
 sliderContainer.style.height = sliderHeight;
 
