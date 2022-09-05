@@ -4,12 +4,16 @@ const photoStorage = [
     alt: 'Image caption 01',
   },
   {
-    src: './img/DSC_5647_2.jpg',
+    src: './img/DSC_6321_2.jpg',
     alt: 'Image caption 02',
   },
   {
     src: './img/DSC_6635_2.jpg',
     alt: 'Image caption 03',
+  },
+  {
+    src: './img/DSC_3921_2.jpg',
+    alt: 'Image caption 04',
   }
 ];
 

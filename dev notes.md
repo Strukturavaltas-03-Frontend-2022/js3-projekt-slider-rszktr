@@ -27,7 +27,3 @@
 - A képek automatikusan, paraméterként megadható időközönként váltanak
 - A slider magassága paraméterként legyen megadható
 - ? A slidernek automatikusan kell legenerálódnia ? 
-
-
-
-

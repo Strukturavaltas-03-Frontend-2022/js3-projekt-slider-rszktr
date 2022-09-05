@@ -70,6 +70,11 @@ const slideshow = () => {
 
 let slideshowTimer = setInterval(slideshow, slideshowTime);
 
+const resetTimer = () => {
+  clearInterval(slideshowTimer);
+  slideshowTimer = setInterval(slideshow, slideshowTime)
+}
+
 // Manuális váltás
 buttons.forEach(item => {
   item.addEventListener('click', switchPhoto)
@@ -84,8 +89,6 @@ function switchPhoto() {
     checkForTurnover()
   }
   setActiveElements();
-  clearInterval(slideshowTimer);
-  slideshowTimer = setInterval(slideshow, slideshowTime)
 };
 
 const checkForTurnover = () => {
@@ -106,6 +109,7 @@ function setActiveElements() {
   changeActiveStatus(individualDots);
   setCounter();
   setInfo()
+  resetTimer();
 };
 
 // Alsó gombok működése
